@@ -24,6 +24,23 @@ p {
     margin: 3rem auto;
 }
 
+.store-girbaud-select {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.store-girbaud-select select {
+    width: 50%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.store-girbaud-select select option {
+    font-size: 0.8rem;
+}
+
 .stores-girbaud-all-flex {
     display: flex;
     justify-content: space-around;
@@ -72,6 +89,7 @@ p {
 
 .stores-girbaud-img img {
     height: 100%;
+    width: 100%;
     object-fit: cover;
 }
 

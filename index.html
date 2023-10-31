@@ -9,11 +9,19 @@
 <body>
 
     <div class="stores-girbaud-container">
+        <div class="store-girbaud-select">
+            <select id="filtro">
+                <option value="todos">--- Todas las tiendas ---</option>
+                <option value="Medellín">Medellín</option>
+                <option value="Bogotá">Bogotá</option>
+                <option value="bucaramanga">Bucaramanga</option>
+            </select>
+        </div>
         <div class="stores-girbaud-content">
             <div class="stores-girbaud-all">
                 <h3 class="stores-girbaud-title">Buscar tienda</h3>
                 <div class="stores-girbaud-all-flex">
-                    <div class="store-girbaud-one active" id="1">
+                    <div class="store-girbaud-one active" id="1" data-city="Medellín">
                         <div class="store-girbaud-one-container">
                             <h4 class="stores-girbaud-title-one">Medellín CC OVIEDO.</h4>
                             <p class="store-girbaud-one-adress">CC. Oviedo : Cra 43A 6S-15 Local 3226 El Poblado, Medellín, El Poblado, Medellín, ANT</p>
@@ -22,7 +30,7 @@
                         </div>
                     </div>
         
-                    <div class="store-girbaud-one" id="2">
+                    <div class="store-girbaud-one" id="2" data-city="Bogotá">
                         <div class="store-girbaud-one-container">
                             <h4 class="stores-girbaud-title-one">CC MULTIPLAZA LA FELICIDAD BOGOTÁ</h4>
                             <p class="store-girbaud-one-adress">CALLE 19 A No. 72 - 57 Local: A - 151</p>
@@ -31,7 +39,7 @@
                         </div>
                     </div>
         
-                    <div class="store-girbaud-one" id="3">
+                    <div class="store-girbaud-one" id="3" data-city="Medellín">
                         <div class="store-girbaud-one-container">
                             <h4 class="stores-girbaud-title-one">MFG,CC Parque Fabricato Local 2258</h4>
                             <p class="store-girbaud-one-adress">Cra. 50 #38a-185</p>
@@ -40,7 +48,7 @@
                         </div>
                     </div>
         
-                    <div class="store-girbaud-one" id="4">
+                    <div class="store-girbaud-one" id="4" data-city="bucaramanga">
                         <div class="store-girbaud-one-container">
                             <h4 class="stores-girbaud-title-one">CC CARACOLI BUCARAMANGA</h4>
                             <p class="store-girbaud-one-adress">Carrera 27# 29-145 Cañaveral entrada autopista CC Parque Caracoli Local 210.</p>
